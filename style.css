@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap");
+body {
+  margin: 0%;
+  width: 350px;
+  height: 350px;
+  background-color: #2c3639;
+  display: flex;
+  justify-content: center;
+  font-family: "Heebo", sans-serif;
+}
+.header_meme {
+  margin: 0%;
+  background-color: lightblue;
+  width: 22rem;
+  height: 50px;
+  display: flex;
+}
+.header_text {
+  padding-left: 8px;
+  padding-top: 0.1px;
+}
+.container {
+  display: inline-block;
+}
+.meme-text {
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  padding: 1rem 1rem 1rem 1rem;
+}
+.meme-content {
+  margin-top: 60px;
+  background-color: #3f4e4f;
+  border: 0px solid;
+  border-radius: 1rem;
+  margin: 2rem 1rem 1rem 1rem;
+}
+.header_meme-img {
+  width: 2rem;
+  height: 2rem;
+  padding-top: 0.8rem;
+  padding-left: 0.8rem;
+}
+.refresh-content-img {
+  width: 1rem;
+  height: 1rem;
+}
+.refresh-content-img:hover {
+  background-color: #2c3639;
+}
+.refresh-content {
+  display: flex;
+  color: white;
+  font-size: 1rem;
+  margin: 1rem 1rem 1rem 1rem;
+  background-color: #3f4e4f;
+  border: 0px solid;
+  border-radius: 1rem;
+}
+.refresh-text {
+  padding-left: 1rem;
+}
+.img {
+  padding: 1.2rem 0 0 0.6rem;
+  cursor: pointer;
+}
+button {
+  background: transparent;
+  border: 0px;
+  cursor: pointer;
+}
