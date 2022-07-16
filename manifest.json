@@ -1,10 +1,10 @@
 {
-  "description": "Memes Generator Chrome Extension",
+  "description": "Random Memes Generator Chrome Extension",
   "icons": {
     "128": "./icons/logo.png"
   },
   "manifest_version": 3,
-  "name": "Memes Viewer",
+  "name": "Random Memes",
   "version": "1.0.1",
   "action": {
     "default_icon": "./icons/logo.png",

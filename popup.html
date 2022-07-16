@@ -5,25 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
     <script src="script.js" type="text/javascript"></script>
     <title>Memes</title>
   </head>
   <body>
     <div class="container">
-      <div class="header_meme">
+      <div class="header_meme-nav">
         <img src="./icons/logo.png"/ class="header_meme-img">
         <h2 class="header_text">Memes</h2>
       </div>
       <div class="meme-content">
-        <p id="jokeElement" class="meme-text">Loading..</p>
+        <div class="meme-img">
+          <div id="jokeElement"><p class="loading">Loading....</p></div>
+        </div>
       </div>
       <div class="refresh-content">
         <p class="refresh-text">Refresh for more</p>
-        <div class="img">
-          <button id="myButton">
-            <img src="./icons/refresh-button.png" class="refresh-content-img" />
-          </button>
-        </div>
+        <button id="myButton">
+          <i class="fa fa-refresh" aria-hidden="true"></i>
+        </button>
       </div>
     </div>
     <script src="script.js" type="text/javascript"></script>
